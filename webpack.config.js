@@ -14,7 +14,6 @@ module.exports = {
     publicPath    : '/'
   },
   resolve       : {
-    modules    : [ 'node_modules', paths.appNodeModules, paths.ownNodeModules ].concat ( paths.nodePaths ),
     extensions : [ '.js', '.json' ]
   },
   resolveLoader : {
