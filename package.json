@@ -1,0 +1,39 @@
+{
+  "name": "es-start-kit",
+  "version": "0.0.0",
+  "main": "index.js",
+  "bin": {
+    "es-load": "./es-load.js"
+  },
+  "files": [
+    "polyfills",
+    "es-load.js",
+    "loader.js",
+    "paths.js",
+    "webpack.config.js"
+  ],
+  "repository": "git@github.com:cyl19910101/es-start-kit.git",
+  "author": "yanliangchen <chenyanliang19910101@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "np": "^2.13.1"
+  },
+  "dependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "cross-spawn": "^5.1.0",
+    "fast-async": "^6.2.2",
+    "fs-extra": "^2.1.2",
+    "nodent-runtime": "^3.0.4",
+    "promise-polyfill": "^6.0.2",
+    "setasap": "^2.0.0",
+    "webpack": "^2.4.1",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "scripts": {
+    "release" : "np"
+  }
+}
