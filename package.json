@@ -1,6 +1,6 @@
 {
   "name": "es-start-kit",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "index.js",
   "bin": {
     "es-load": "./es-load.js"
@@ -34,6 +34,6 @@
     "whatwg-fetch": "^2.0.3"
   },
   "scripts": {
-    "release" : "np"
+    "release": "np"
   }
 }
